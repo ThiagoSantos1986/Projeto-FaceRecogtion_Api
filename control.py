@@ -10,7 +10,7 @@ import numpy as np
 import cv2
 
 pathlib.Path('static').mkdir(exist_ok=True)
-UPLOAD_FOLDER = "static/uploads"
+UPLOAD_FOLDER = "static/uploads/"
 
 # Diretório que contém as imagens de rostos para treinamento
 database_path = UPLOAD_FOLDER
