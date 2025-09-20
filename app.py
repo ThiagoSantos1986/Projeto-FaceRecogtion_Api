@@ -2,7 +2,7 @@ import base64
 import os
 import os.path as op
 from waitress import serve
-from pkg_resources import resource_filename
+# from pkg_resources import resource_filename
 
 from flask import Flask, request, jsonify, make_response
 
