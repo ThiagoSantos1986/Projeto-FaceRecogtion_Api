@@ -6,7 +6,7 @@ from waitress import serve
 
 from flask import Flask, request, jsonify
 
-# from control import UPLOAD_FOLDER, detect_faces_in_image, filetobyte, find_face
+from control import UPLOAD_FOLDER, detect_faces_in_image, filetobyte, find_face
 
 
 from model import Imagens, Pessoa, Encoding, configure
